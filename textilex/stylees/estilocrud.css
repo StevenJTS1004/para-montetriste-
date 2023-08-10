@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    background-color: cyan;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+#mainNav {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    background-color: #007bff;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 100px;
+}
+
+/* Formulario de ingreso de datos */
+.col-md-4 {
+    background-color: #17a2b8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Tabla de productos */
+.table {
+    border: 2px solid #007bff;
+}
+
+.table thead {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* Botones de editar y eliminar */
+.btn-info,
+.btn-danger {
+    margin-right: 5px;
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    text-shadow: 5px 2px 3px indianred;
+    font-family: 'Felix Titling', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .col-md-4 {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+}
